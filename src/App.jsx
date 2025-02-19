@@ -29,6 +29,7 @@ function App() {
 
   useEffect(()=>{
     getData();
+    console.log('hi')
   },[])
 
   //useMemo(()=>getData(),[apiurl]);
