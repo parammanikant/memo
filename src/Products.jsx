@@ -14,7 +14,7 @@ function Products(props) {
   return (
     <div>
 
-        <div className='grid grid-cols-4 gap-[10px]'>
+        <div className='grid md:grid-cols-4 grid-col-1 gap-[10px]'>
 
         {
             props.productsArr.map((info) =>(
